@@ -1,0 +1,21 @@
+{
+  "name": "iba-downloader",
+  "version": "1.0.0",
+  "description": "A cheerio-based parser that reads all the drinks from the IBA website and builds a nicely formatted JSON file from them.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": ["iba", "cocktails", "longdrinks", "downloader", "web parser"],
+  "author": "Chris Frewin",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "isomorphic-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "^0.0.36",
+    "@types/node": "^18.7.23",
+    "typescript": "^4.8.4"
+  }
+}
